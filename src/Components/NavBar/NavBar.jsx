@@ -6,7 +6,7 @@ export default function NavBar() {
     <>
       <nav className="navbar navbar-expand-lg navbar-dark bg-nav fixed-top z-3 py-3">
         <div className="container">
-          <Link className="navbar-brand fs-3 fw-bold" to={""}>
+          <Link className="navbar-brand fs-3 fw-bold" to={"/start-framework/"}>
             START FRAMEWORK
           </Link>
           <button

@@ -11,7 +11,7 @@ import "./main.css";
 export default function App() {
   let routes = createBrowserRouter([
     {
-      path: "",
+      path: "/start-framework/",
       element: <LayOut />,
       children: [
         { index: true, element: <Home /> },
